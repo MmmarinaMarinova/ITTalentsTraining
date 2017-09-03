@@ -17,7 +17,7 @@ public class Library {
         this.catalogue.put(ReadingMaterialType.TEXTBOOK, new TreeSet<>(textbookComparator));
     }
 
-    Comparator<ReadingMaterial> magazineComparator=new Comparator<ReadingMaterial>() {
+    private Comparator<ReadingMaterial> magazineComparator=new Comparator<ReadingMaterial>() {
         @Override
         public int compare( ReadingMaterial o1 , ReadingMaterial o2) {
                 if(((Magazine)o1).getCategory().equals(((Magazine)o2).getCategory())){
@@ -36,14 +36,14 @@ public class Library {
             }
         };
 
-    Comparator<ReadingMaterial> bookComparator=new Comparator<ReadingMaterial>() {
+    private Comparator<ReadingMaterial> bookComparator=new Comparator<ReadingMaterial>() {
         @Override
         public int compare(ReadingMaterial o1, ReadingMaterial o2) {
             if(((Book)o1).getGenre().equals(((Book)o2).getGenre())){
                 if(o1.getPrintDate().isEqual(o2.getPrintDate())){
                     return 0;
                 }else{
-                    return o1.getPrintDate().isAfter(o2.getPrintDate())? 1:-1;
+                    return o1.getPrintDate().isAfter(o2.getPrintDate())? -1:1;
                 }
             }else{
                 return ((Book)o1).getGenre().compareTo(((Book)o2).getGenre());
@@ -51,7 +51,7 @@ public class Library {
         }
     };
 
-    Comparator<ReadingMaterial> textbookComparator=new Comparator<ReadingMaterial>() {
+    private Comparator<ReadingMaterial> textbookComparator=new Comparator<ReadingMaterial>() {
         @Override
         public int compare(ReadingMaterial o1, ReadingMaterial o2) {
             if(((Textbook)o1).getTopic().equals(((Textbook)o1).getTopic())){

@@ -23,4 +23,11 @@ public class Textbook extends ReadingMaterial {
     public Topic getTopic() {
         return this.topic;
     }
+
+    @Override
+    public String toString() {
+        return super.toString()+"\n"+"Textbook{" +
+                "topic=" + topic +
+                '}';
+    }
 }

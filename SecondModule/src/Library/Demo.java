@@ -36,5 +36,12 @@ public class Demo {
         Client client=new Client("Mincho", 10);
         client.askForReadingMaterialForHome(library, textbook1);
         client.askForReadingMaterialForHome(library, magazine1);
+        client.askForReadingMaterialForHome(library,textbook3);
+        client.askForReadingMaterialForHome(library,book2);
+        client.returnAReading(library,textbook3.getName());
+        client.askForReadingMaterialForHome(library,book1);
+        client.askForReadingMaterialForHome(library,book2);
+        System.out.println(client.getMoney());
+        client.askForReadingMaterialForHome(library,textbook2);
     }
 }

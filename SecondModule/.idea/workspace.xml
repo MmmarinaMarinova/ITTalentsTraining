@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edb69ad7-662d-41ba-b359-ecdfe1536214" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cakes/CorporateClient.java" afterPath="$PROJECT_DIR$/src/Cakes/CorporateClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cakes/PrivateClient.java" afterPath="$PROJECT_DIR$/src/Cakes/PrivateClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cakes/Voucher.java" afterPath="$PROJECT_DIR$/src/Cakes/Voucher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sud/CriminalCase.java" afterPath="$PROJECT_DIR$/src/Sud/CriminalCase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Library/Book.java" afterPath="$PROJECT_DIR$/src/Library/Book.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Library/Demo.java" afterPath="$PROJECT_DIR$/src/Library/Demo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Library/Library.java" afterPath="$PROJECT_DIR$/src/Library/Library.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Library/Magazine.java" afterPath="$PROJECT_DIR$/src/Library/Magazine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Library/ReadingMaterial.java" afterPath="$PROJECT_DIR$/src/Library/ReadingMaterial.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Library/Textbook.java" afterPath="$PROJECT_DIR$/src/Library/Textbook.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,13 +29,15 @@
       <file leaf-file-name="Library.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Library/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+            <state relative-caret-position="874">
+              <caret line="53" column="93" lean-forward="false" selection-start-line="53" selection-start-column="93" selection-end-line="53" selection-end-column="93" />
               <folding>
-                <element signature="class#689:1538" expanded="false" />
-                <element signature="class#1592:2123" expanded="false" />
-                <element signature="class#2181:2703" expanded="false" />
-                <element signature="method#compare#0;class#2181:2703" expanded="false" />
+                <element signature="class#697:1546" expanded="false" />
+                <element signature="method#compare#0;class#697:1546" expanded="false" />
+                <element signature="class#1608:2139" expanded="false" />
+                <element signature="class#2205:2727" expanded="false" />
+                <element signature="method#compare#0;class#2205:2727" expanded="false" />
+                <element signature="method#printCatalogue#0;class#Library#0" expanded="false" />
                 <element signature="method#checkForExtendedLend#0;class#Library#0" expanded="false" />
               </folding>
             </state>
@@ -43,8 +47,8 @@
       <file leaf-file-name="Demo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Library/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="219">
+              <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -53,8 +57,8 @@
       <file leaf-file-name="Magazine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Library/Magazine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+            <state relative-caret-position="343">
+              <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#684#685#0" expanded="true" />
@@ -71,25 +75,25 @@
       <file leaf-file-name="ReadingMaterial.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Library/ReadingMaterial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+            <state relative-caret-position="123">
+              <caret line="65" column="31" lean-forward="false" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1875#1876#0" expanded="true" />
                 <element signature="e#1907#1908#0" expanded="true" />
                 <element signature="e#1946#1947#0" expanded="true" />
                 <element signature="e#1983#1984#0" expanded="true" />
-                <element signature="e#2270#2271#0" expanded="true" />
-                <element signature="e#2310#2311#0" expanded="true" />
-                <element signature="e#2351#2352#0" expanded="true" />
-                <element signature="e#2396#2397#0" expanded="true" />
-                <element signature="e#2434#2435#0" expanded="true" />
-                <element signature="e#2505#2506#0" expanded="true" />
+                <element signature="e#2306#2307#0" expanded="true" />
+                <element signature="e#2346#2347#0" expanded="true" />
+                <element signature="e#2387#2388#0" expanded="true" />
+                <element signature="e#2432#2433#0" expanded="true" />
+                <element signature="e#2470#2471#0" expanded="true" />
+                <element signature="e#2541#2542#0" expanded="true" />
                 <element signature="method#isExtended#0;class#ReadingMaterial#0" expanded="false" />
-                <element signature="e#3018#3019#0" expanded="true" />
-                <element signature="e#3045#3046#0" expanded="true" />
-                <element signature="e#3227#3228#0" expanded="true" />
-                <element signature="e#3258#3259#0" expanded="true" />
+                <element signature="e#3054#3055#0" expanded="true" />
+                <element signature="e#3081#3082#0" expanded="true" />
+                <element signature="e#3263#3264#0" expanded="true" />
+                <element signature="e#3294#3295#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,8 +102,8 @@
       <file leaf-file-name="Textbook.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Library/Textbook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+            <state relative-caret-position="247">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,8 +114,8 @@
       <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Library/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="12" column="84" lean-forward="false" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
+            <state relative-caret-position="316">
+              <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#510#511#0" expanded="true" />
@@ -224,13 +228,13 @@
         <option value="$PROJECT_DIR$/src/Library/Topic.java" />
         <option value="$PROJECT_DIR$/src/Library/Category.java" />
         <option value="$PROJECT_DIR$/src/Library/ReadingMaterialType.java" />
-        <option value="$PROJECT_DIR$/src/Library/Textbook.java" />
-        <option value="$PROJECT_DIR$/src/Library/Book.java" />
-        <option value="$PROJECT_DIR$/src/Library/Magazine.java" />
-        <option value="$PROJECT_DIR$/src/Library/ReadingMaterial.java" />
         <option value="$PROJECT_DIR$/src/Library/Lend.java" />
-        <option value="$PROJECT_DIR$/src/Library/Library.java" />
         <option value="$PROJECT_DIR$/src/Library/Client.java" />
+        <option value="$PROJECT_DIR$/src/Library/ReadingMaterial.java" />
+        <option value="$PROJECT_DIR$/src/Library/Book.java" />
+        <option value="$PROJECT_DIR$/src/Library/Textbook.java" />
+        <option value="$PROJECT_DIR$/src/Library/Magazine.java" />
+        <option value="$PROJECT_DIR$/src/Library/Library.java" />
         <option value="$PROJECT_DIR$/src/Library/Demo.java" />
       </list>
     </option>
@@ -888,12 +892,12 @@
       <workItem from="1503833012460" duration="11346000" />
       <workItem from="1503935573740" duration="5649000" />
       <workItem from="1504180210637" duration="1140000" />
-      <workItem from="1504344310111" duration="23309000" />
+      <workItem from="1504344310111" duration="25206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213984000" />
+    <option name="totallyTimeSpent" value="215881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1349,85 +1353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Library/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="12" column="84" lean-forward="false" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Library/Textbook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Library/ReadingMaterial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1875#1876#0" expanded="true" />
-            <element signature="e#1907#1908#0" expanded="true" />
-            <element signature="e#1946#1947#0" expanded="true" />
-            <element signature="e#1983#1984#0" expanded="true" />
-            <element signature="e#2270#2271#0" expanded="true" />
-            <element signature="e#2310#2311#0" expanded="true" />
-            <element signature="e#2351#2352#0" expanded="true" />
-            <element signature="e#2396#2397#0" expanded="true" />
-            <element signature="e#2434#2435#0" expanded="true" />
-            <element signature="e#2505#2506#0" expanded="true" />
-            <element signature="method#isExtended#0;class#ReadingMaterial#0" expanded="false" />
-            <element signature="e#3018#3019#0" expanded="true" />
-            <element signature="e#3045#3046#0" expanded="true" />
-            <element signature="e#3227#3228#0" expanded="true" />
-            <element signature="e#3258#3259#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Library/Magazine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Library/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding>
-            <element signature="class#689:1538" expanded="false" />
-            <element signature="class#1592:2123" expanded="false" />
-            <element signature="class#2181:2703" expanded="false" />
-            <element signature="method#compare#0;class#2181:2703" expanded="false" />
-            <element signature="method#checkForExtendedLend#0;class#Library#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Library/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1442,10 +1367,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Library/ReadingMaterial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="65" column="31" lean-forward="false" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1875#1876#0" expanded="true" />
+            <element signature="e#1907#1908#0" expanded="true" />
+            <element signature="e#1946#1947#0" expanded="true" />
+            <element signature="e#1983#1984#0" expanded="true" />
+            <element signature="e#2306#2307#0" expanded="true" />
+            <element signature="e#2346#2347#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+            <element signature="e#2432#2433#0" expanded="true" />
+            <element signature="e#2470#2471#0" expanded="true" />
+            <element signature="e#2541#2542#0" expanded="true" />
+            <element signature="method#isExtended#0;class#ReadingMaterial#0" expanded="false" />
+            <element signature="e#3054#3055#0" expanded="true" />
+            <element signature="e#3081#3082#0" expanded="true" />
+            <element signature="e#3263#3264#0" expanded="true" />
+            <element signature="e#3294#3295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Library/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Library/Textbook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Library/Magazine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Library/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="53" column="93" lean-forward="false" selection-start-line="53" selection-start-column="93" selection-end-line="53" selection-end-column="93" />
+          <folding>
+            <element signature="class#697:1546" expanded="false" />
+            <element signature="method#compare#0;class#697:1546" expanded="false" />
+            <element signature="class#1608:2139" expanded="false" />
+            <element signature="class#2205:2727" expanded="false" />
+            <element signature="method#compare#0;class#2205:2727" expanded="false" />
+            <element signature="method#printCatalogue#0;class#Library#0" expanded="false" />
+            <element signature="method#checkForExtendedLend#0;class#Library#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Library/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state relative-caret-position="219">
+          <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
           <folding />
         </state>
       </provider>

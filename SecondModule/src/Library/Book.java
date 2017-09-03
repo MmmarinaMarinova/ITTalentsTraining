@@ -24,4 +24,12 @@ public class Book extends ReadingMaterial {
     public Genre getGenre() {
         return this.genre;
     }
+
+    @Override
+    public String toString() {
+        return super.toString()+"\n"+"Book{" +
+                "author='" + author + '\'' +
+                ", genre=" + genre +
+                '}';
+    }
 }

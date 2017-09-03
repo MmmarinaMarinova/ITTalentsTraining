@@ -33,4 +33,12 @@ public class Magazine extends ReadingMaterial {
     public int getEditionNumber() {
         return this.editionNumber;
     }
+
+    @Override
+    public String toString() {
+        return super.toString()+"\n"+"Magazine{" +
+                "category=" + category +
+                ", editionNumber=" + editionNumber +
+                '}';
+    }
 }

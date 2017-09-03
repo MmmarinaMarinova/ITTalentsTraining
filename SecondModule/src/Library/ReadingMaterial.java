@@ -60,12 +60,14 @@ public abstract class ReadingMaterial {
         return this.printDate;
     }
 
+
     @Override
     public String toString() {
         return "ReadingMaterial{" +
                 "name='" + name + '\'' +
                 ", printDate=" + printDate +
                 ", publisher='" + publisher + '\'' +
+                ", type=" + type +
                 '}';
     }
 
