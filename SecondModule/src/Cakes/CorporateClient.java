@@ -25,8 +25,10 @@ public class CorporateClient extends Client{
         cakeShop.makeOrder(this,cakes,address);
     }
 
+    @Override
+    public void payOrder(Order order) {
 
-
+    }
 
     @Override
     public boolean isCorporate() {

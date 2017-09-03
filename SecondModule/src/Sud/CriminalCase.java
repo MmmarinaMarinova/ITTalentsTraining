@@ -25,7 +25,7 @@ public class CriminalCase extends  Case{
         return CaseType.CRIMINAL_CASE;
     }
 
-    @Override
+    /*@Override
     public void conduct() {
         for (Jury jury:this.jury) {
             jury.increaseCaseCount();
@@ -43,8 +43,9 @@ public class CriminalCase extends  Case{
                 lawyer.askQuestion();
             }
         }
+        }
+
+*/
 
 
-
-    }
 }

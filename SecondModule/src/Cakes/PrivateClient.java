@@ -24,10 +24,14 @@ public class PrivateClient extends Client {
         }
     }
 
+    @Override
+    void orderCakes(CakeShop cakeShop, String address) {
+
+    }
 
     @Override
-    void orderCakes(CakeShop cakeShop) {
-        //todo
+    public void payOrder(Order order) {
+
     }
 
     @Override
